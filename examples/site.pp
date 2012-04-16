@@ -1,9 +1,9 @@
-node apache_demo {
+node /apache_demo/ {
 
   include 'apache_demo'
 }
 
-node nova_single {
+node /nova_single/ {
 
   $rabbit_password = 'rabbit_pw'
   $rabbit_user = 'nova'
